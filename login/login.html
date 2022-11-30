@@ -10,7 +10,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link href="login.css">
+    <link href="login.css" />
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -18,7 +18,10 @@
         <div class="col-4 offset-md-3 mx-auto my-auto">
           <div class="card mt-5">
             <div class="card-body text-center">
-              <img src="https://cdn-icons-png.flaticon.com/128/5087/5087592.png" width="80px" />
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/3871/3871011.png"
+                width="50px"
+              />
 
               <h2 class="my-4" id="title"></h2>
               <p id="caption"></p>
@@ -37,14 +40,13 @@
                     placeholder="password"
                   />
                 </div>
+                <div class="form-check mb-4">
+                  <!-- <label class="form-check-label"> -->
+                  <input class="form-check-input" type="checkbox" /> Remember me
+                  <!-- </label> -->
+                </div>
                 <div class="d-grid gap-2">
-                  <button
-                    onclick="loginUser()"
-                    class="button"
-                    type="button"
-                  >
-                    Login
-                  </button>
+                  <button class="btn btn-dark">Login</button>
                 </div>
               </form>
             </div>
