@@ -1,0 +1,41 @@
+body {
+  /* background-color: bisque; */
+  /* color: white; */
+}
+
+#nav-bar {
+  background-color: #efd676;
+  height: 70px;
+}
+
+#navbarNavDropdown {
+  margin-left: 300px;
+}
+
+#web-name {
+  margin-left: 105px;
+}
+
+#home {
+  background-color: 	#595959;
+  border-radius: 0.2cm;
+}
+
+.nav-item {
+  font-weight: 500;
+  /* font-size: large; */
+  margin: 10px;
+}
+
+#view-more-link {
+  text-decoration: none;
+}
+
+#view-more-text {
+  margin-left: 235px;
+}
+
+#login {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,32 @@
+body {
+  /* background-color: bisque; */
+  /* color: white; */
+}
+
+/* nav {
+  background-color: bisque;
+} */
+
+#nav-bar {
+  background-color: #ffdf7f;
+}
+
+/* .container-fluid {
+  background-color: bisque;
+} */
+
+#navbarNavDropdown {
+  margin-left: 300px;
+}
+
+#web-name {
+  margin-left: 105px;
+}
+
+#view-more-link {
+  text-decoration: none;
+}
+
+#view-more-text {
+  margin-left: 235px;
+}

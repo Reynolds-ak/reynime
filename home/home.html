@@ -10,31 +10,17 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link
-      href="C:\Users\hp\Desktop\Nsano Ltd\Training\Web Dev\{}\FPI_Project\reynime\assets\css\style.css"
-      rel="stylesheet"
-    />
+    <link href="home.css" rel="stylesheet" />
   </head>
   <body class="bg-dark">
     <!-- <div class="container"> -->
-    <nav class="navbar navbar-expand-lg bg-light text-white">
+    <nav class="navbar navbar-expand-lg sticky-top text-white" id="nav-bar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Reynime</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse ms-3" id="navbarNavDropdown">
+        <a class="navbar-brand" href="#" id="web-name"><b>Reynime</b></a>
+        <div class="collapse navbar-collapse ml-8" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item" id="home">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Browse</a>
@@ -66,8 +52,10 @@
                 </li>
               </ul>
             </li>
-            <li>
-              <a href="../login"><span class="icon_profile"></span> Login</a>
+            <li class="nav-item">
+              <a class="nav-link" href="C:\Users\hp\Desktop\Nsano Ltd\Training\Web Dev\{}\FPI_Project\reynime\login\login.html">
+                Login
+              </a>
             </li>
           </ul>
         </div>
@@ -110,7 +98,6 @@
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>One Piece</h5>
-              <!-- <p>Some representative placeholder content for the first slide.</p> -->
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="3000">
@@ -121,7 +108,6 @@
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>Demon Slayer</h5>
-              <!-- <p>Some representative placeholder content for the second slide.</p> -->
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="3000">
@@ -132,7 +118,6 @@
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>Attack Of Titan</h5>
-              <!-- <p>Some representative placeholder content for the third slide.</p> -->
             </div>
           </div>
         </div>
@@ -164,10 +149,11 @@
         <div class="col-lg-4 col-md-4 col-sm-8">
           <div class="btn__all">
             <a
-              href="C:\Users\hp\Desktop\Nsano Ltd\Training\Web Dev\{}\FPI_Project\reynime\pages\viewmore.html"
+              id="view-more-link"
+              href="C:\Users\hp\Desktop\Nsano Ltd\Training\Web Dev\{}\FPI_Project\reynime\view-more\viewmore.html"
               class="text-white"
             >
-              <h4>View More</h4>
+              <h4 id="view-more-text">View More</h4>
               <span class="arrow_right"></span
             ></a>
           </div>
@@ -177,34 +163,37 @@
         <div class="row row-cols-4">
           <div class="col">
             <img
-              src="https://cdn.animixplay.to/i/6a34b962f903f3e9e9f02cb08a4d92a8.jpg"
+              src="https://cdn.animixplay.to/min/mal/1806/126216.jpg"
             />
-            <h5 class="mt-1 ">Play It Cool, Guys</h5>
-            <h6>EP 8/?</h6>
+            <h5 class="mt-1">Chainsaw Man</h5>
+            <h6>EP 8/12</h6>
           </div>
           <div class="col">
             <img
               src="https://cdn.animixplay.to/i/5660afa590de3d8493d72abc2aef7d4c.jpg"
             />
             <h5>Bleach</h5>
+            <h6>EP 100/800</h6>
           </div>
           <div class="col">
             <img
               src="https://cdn.animixplay.to/i/55b1e8116c273ed5f56aaf06279cfb6d.jpg"
             />
             <h5>Blue Lock</h5>
+            <h6>EP 8/?</h6>
           </div>
           <div class="col">
             <img src="https://cdn.animixplay.to/min/mal/1483/126005.jpg" />
             <h5>My Hero Academia</h5>
+            <h6>EP 8/?</h6>
           </div>
         </div>
         <br />
         <div class="row row-cols-4">
           <div class="col">
-            <img
-              src="https://cdn.animixplay.to/i/6a34b962f903f3e9e9f02cb08a4d92a8.jpg"
-            />
+            <img src="https://cdn.animixplay.to/i/2b749c9e3e272f2cf4b4f019ffe6c252.jpg" />
+            <h5>Boruto: Naruto Next Generations</h5>
+            <h6>EP 257/?</h6>
           </div>
           <div class="col">
             <img
