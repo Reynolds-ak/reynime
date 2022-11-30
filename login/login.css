@@ -1,3 +1,9 @@
 .btn {
   font-weight: 600;
 }
+
+#web-name {
+  margin-left: 105px;
+  color: white;
+  font-weight: 700;
+}
